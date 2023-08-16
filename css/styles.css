@@ -1,0 +1,260 @@
+body {
+    color: #514740;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0px auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.625rem;
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 50px;
+    font-family: 'montserrat', sans-serif;
+}
+
+h3 {
+    color: #11999E;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/* --- Navbar Styling --- */
+
+nav {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d7f3f3;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+}
+
+ul li a {
+    display: inline-block;
+    color: #11999E;
+    width: 150px;
+    height: 100%;
+    padding-top: 10px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    border-radius: 0.2em;
+    transition: border 0.25s, font-family 0.25s, box-shadow 0.25s;
+}
+
+ul li a:hover {
+    border: 1px solid #11999e;
+    transform: scale(1.02);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    box-shadow: 0 0.5em 0.5em -0.4em #62d6da;
+}
+
+ul {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*********** Classes Selector ************/
+.Top-Container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding: 100px 0 0 0;
+    height: 100vh;
+}
+
+.Top-Container #mountain {
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+}
+
+.Middle-Container {
+    margin: 100px auto;
+}
+
+.Bottom-Container {
+    background-color: #66BFBF;
+    height: 150px;
+}
+
+.Bottom-Cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.Contact-Me {
+    width: 50%;
+    margin: auto;
+}
+
+.Top-Cloud {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+}
+
+.Dp {
+    height: 250px;
+    width: 250px;
+}
+
+.Skill {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Skills-2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+.Skill3 {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.Skills-Row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 50px auto 100px auto;
+    text-decoration: none;
+    background: none;
+    color: #000000;
+    border: 2px solid;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.btn:hover {
+    color: #11999E;
+    border-color: #11999E;
+    box-shadow: 0 0.5em 0.5em -0.4em #11999E;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+/* .btn {
+    background:  #11cdd4;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family:'montserrat',sans-serif;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 50px auto 100px auto;
+     
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }   */
+.Footer-link {
+    color: #ffffff;
+    display: inline-block;
+    margin: 50px 50px 25px 50px;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    transition: transform 0.30s, text-shadow 0.30s;
+}
+
+.Footer-link:hover {
+    transform: scale(1.09);
+    text-shadow: 0 0.1em 0.2em #00000032;
+}
+
+.My-Name {
+    color: #EAF6F6;
+    font-size: 10px;
+    padding: 10px auto;
+    text-align: center;
+}
+
+.Profile {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    nav,
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* Media Queries */
+/* Navbar using flexbox */
+/* Transition and Transform */
